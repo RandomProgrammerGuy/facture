@@ -1,4 +1,4 @@
-# Facture
+![Facture Logo](assets/logo-transparent.png)
 
 Facture is the free, open-source text review tool that allows users to :
 
