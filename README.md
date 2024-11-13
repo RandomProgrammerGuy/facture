@@ -28,4 +28,8 @@ The roadmap for Facture consists of:
 
 1. Fine-tuning the already-existing features for maximum accuracy
 
-2. Making a mobile app 
+2. Adding a financial affiliation checker (to detect whether the article was written based on the author's financial interests)
+
+3. Making a web app
+
+4. Making a mobile app 
