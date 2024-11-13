@@ -1,10 +1,15 @@
 {
     "name": "Facture",
     "description": "A free, open-source news and text review tool",
-    "version": "Dev Beta 1",
+    "version": "0.0.1",
     "manifest_version": 3,
     "action": {
-      "default_popup": "extension_ui.html",
-      "default_icon": "extension_icon.png"
+      "default_popup": "extension_ui.html"
+    },
+    "icons": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png",
+      "48": "icons/icon-48.png",
+      "128": "icons/icon-128.png"
     }
   }
