@@ -80,3 +80,28 @@ h1 {
     color: var(--darkcolor);
     text-align: center;
 }
+
+.bottomtext {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottomtextp {
+    margin-left: 10px;
+    margin-left: 10px;
+    color: var(--darkcolor);
+    font-family: 'Funnel Display', sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 10px;
+    text-align: center;
+}
+
+.bottomtextp a, .bottomtext a:visited {
+    color: var(--darkcolor);
+}
+
+.bottomtextp a:hover {
+    color: var(--skyblue);
+}
