@@ -1,7 +1,7 @@
 {
     "name": "Facture",
     "description": "A free, open-source news and text review tool",
-    "version": "0.0.1",
+    "version": "0.0.0",
     "manifest_version": 3,
     "action": {
       "default_popup": "extension_ui.html"
