@@ -3,4 +3,62 @@
    Please note that this file does nothing on its own, it is only a stylesheet. 
    The UI elements themselves are in extension_ui.html and the code for the extension is in extension_code.js */
 
-   
+/* IMPORTING FUNNEL DISPLAY FONT FROM GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+:root {
+    --skyblue: #1aa4ff;
+    --bgcolor: #e7ebec;
+    --barcolor: #c3cbce;
+    --darkcolor: #061920;
+}
+
+body {
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+    background-color: var(--bgcolor);
+}
+
+.barholder :first-child {
+    margin-top: 4px;
+}
+
+h1 {
+    font-family: 'Funnel Display', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+    color: var(--skyblue);
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.logo {
+    width: 177px;
+    height: 100px;
+    margin-left: 161.5px;
+}
+
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+.bar {
+    width: 450px;
+    height: 20px;
+    background-color: var(--barcolor);
+    border-radius: 10px;
+    margin-left: 25px;
+}
+
+.injected-text {
+    font-family: 'Funnel Display', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 15px;
+    color: var(--darkcolor);
+    text-align: center;
+}
