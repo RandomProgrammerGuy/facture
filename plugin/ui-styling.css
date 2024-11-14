@@ -6,13 +6,16 @@
 /* IMPORTING FUNNEL DISPLAY FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
 
+/* VARIABLE DEFINITION */
 :root {
     --skyblue: #1aa4ff;
     --bgcolor: #e7ebec;
     --barcolor: #c3cbce;
     --darkcolor: #061920;
+    --barfillcolor: #0d5974;
 }
 
+/* THIS DEFINES THE SIZER AND COLOR OF THE BACKGROUND */
 body {
     width: 500px;
     height: 550px;
@@ -20,10 +23,25 @@ body {
     background-color: var(--bgcolor);
 }
 
+/* LOGO CONTAINER (USED TO SET WIDTH, CENTER) */
+.logo {
+    width: 177px;
+    height: 100px;
+    margin-left: 161.5px;
+}
+
+/* LOGO IMAGE */
+.logo img {
+    height: 100px;
+    width: auto;
+}
+
+/* REDUCES GAP BETWEEN FIRST h1 TAG AND FACTURE LOGO */
 .barholder :first-child {
     margin-top: 4px;
 }
 
+/* BAR TITLES */
 h1 {
     font-family: 'Funnel Display', sans-serif;
     font-weight: 700;
@@ -34,17 +52,7 @@ h1 {
     text-align: center;
 }
 
-.logo {
-    width: 177px;
-    height: 100px;
-    margin-left: 161.5px;
-}
-
-.logo img {
-    height: 100px;
-    width: auto;
-}
-
+/* THE BAR FRAMES (THE GRAY, UNFILLED AREAS) */
 .bar {
     width: 450px;
     height: 20px;
@@ -53,6 +61,16 @@ h1 {
     margin-left: 25px;
 }
 
+/* THE BAR FILL */
+.barfiller {
+    width: 50%;
+    height: 100%;
+    margin-left: 0px;
+    background-color: var(--barfillcolor);
+    border-radius: 10px 0px 0px 10px;
+}
+
+/* THE INJECTED TEXT PART UNDERNEATH EACH BAR */
 .injected-text {
     font-family: 'Funnel Display', sans-serif;
     font-weight: 400;
