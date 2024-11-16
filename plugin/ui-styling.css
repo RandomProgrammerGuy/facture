@@ -8,11 +8,17 @@
 
 /* VARIABLE DEFINITION */
 :root {
+    /* COLORS */
     --skyblue: #1aa4ff;
     --bgcolor: #e7ebec;
     --barcolor: #c3cbce;
     --darkcolor: #061920;
     --barfillcolor: #0d5974;
+
+    /* BAR LENGTHS (CHANGED BY JAVASCRIPT) */
+    --authbarlength: 70%;
+    --reptbarlength: 60%;
+    --aigcbarlength: 40%;
 }
 
 /* THIS DEFINES THE SIZER AND COLOR OF THE BACKGROUND */
@@ -63,11 +69,23 @@ h1 {
 
 /* THE BAR FILL */
 .barfiller {
-    width: 50%;
     height: 100%;
     margin-left: 0px;
     background-color: var(--barfillcolor);
     border-radius: 10px 0px 0px 10px;
+}
+
+/* THE FILL FOR EACH SPECIFIC BAR */
+#authbarfiller {
+    width: var(--authbarlength);
+}
+
+#reptbarfiller {
+    width: var(--reptbarlength);
+}
+
+#aigcbarfiller {
+    width: var(--aigcbarlength);
 }
 
 /* THE INJECTED TEXT PART UNDERNEATH EACH BAR */
