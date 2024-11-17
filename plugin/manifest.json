@@ -1,6 +1,6 @@
 {
     "name": "Facture",
-    "description": "A free, open-source news and text review tool",
+    "description": "A free, open-source news and text analysis tool that allows you to fact-check what you read, verify the reputation and bias of its source and identify for AI-generated content.",
     "version": "0.0.0",
     "manifest_version": 3,
 
