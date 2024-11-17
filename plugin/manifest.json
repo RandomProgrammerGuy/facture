@@ -19,7 +19,7 @@
 
 
     "action": {
-      "default_popup": "extension_ui.html"
+      "default_popup": "extensionUI.html"
     },
     "icons": {
       "16": "icons/icon-16.png",

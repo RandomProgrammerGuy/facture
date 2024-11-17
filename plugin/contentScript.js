@@ -1,4 +1,8 @@
-/* THIS CODE EXTRACTS THE TEXT FROM THE WEBPAGE */
+/*
+contentScript.js 
+----------------
+Extracts page text content and prints it in the console (for now)
+*/
 console.log("Content script is running");
 
 // Directly get the text content of the entire page

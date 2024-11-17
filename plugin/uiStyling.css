@@ -1,7 +1,10 @@
-/* ui-styling.css */
-/* This file contains the styling for the extension. 
-   Please note that this file does nothing on its own, it is only a stylesheet. 
-   The UI elements themselves are in extension_ui.html and the code for the extension is in extension_code.js */
+/* 
+ui-styling.css 
+--------------
+This file contains the styling for the extension. 
+Please note that this file does nothing on its own, it is only a stylesheet. 
+The UI elements themselves are in extension_ui.html and the code for the extension is in extension_code.js 
+*/
 
 /* IMPORTING FUNNEL DISPLAY FONT FROM GOOGLE FONTS */
 @import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
@@ -19,6 +22,11 @@
     --authbarlength: 70%;
     --reptbarlength: 60%;
     --aigcbarlength: 40%;
+
+    /* BAR COLORS (CHANGED BY JAVASCRIPT) */
+    --authbarcolor : #0d5974;
+    --reptbarcolor : #0d5974;
+    --aigcbarcolor : #0d5974;
 }
 
 /* THIS DEFINES THE SIZER AND COLOR OF THE BACKGROUND */
@@ -71,21 +79,23 @@ h1 {
 .barfiller {
     height: 100%;
     margin-left: 0px;
-    background-color: var(--barfillcolor);
     border-radius: 10px 0px 0px 10px;
 }
 
 /* THE FILL FOR EACH SPECIFIC BAR */
 #authbarfiller {
     width: var(--authbarlength);
+    background-color: var(--authbarcolor);
 }
 
 #reptbarfiller {
     width: var(--reptbarlength);
+    background-color: var(--reptbarcolor);
 }
 
 #aigcbarfiller {
     width: var(--aigcbarlength);
+    background-color: var(--aigcbarcolor);
 }
 
 /* THE INJECTED TEXT PART UNDERNEATH EACH BAR */
