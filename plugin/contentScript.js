@@ -1,4 +1,4 @@
-/* THIS CODE EXTRACTS THE TEXT FROM THE WEBPAGE, BUT THE MAIN FUN HAPPENS IN 'extractText.js' */
+/* THIS CODE EXTRACTS THE TEXT FROM THE WEBPAGE */
 console.log("Content script is running");
 
 // Directly get the text content of the entire page
