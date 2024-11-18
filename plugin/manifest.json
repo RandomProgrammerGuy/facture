@@ -5,8 +5,9 @@
     "manifest_version": 3,
 
 
-    "permissions": ["scripting", "activeTab", "tabs"],
+    "permissions": ["scripting", "activeTab", "tabs", "aiLanguageModelOriginTrial"],
     "host_permissions": ["<all_urls>"],
+    "trial_tokens": ["An2G9fGJpWmtwu8ezZwSyC3qNQs7rjvxR9wQFvVS7HPS/5iRhrEVgCQEYvdqxQxTi/7/dW/Pib8+9NSHMR7hkgcAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vZmppa2xpbnBqbGdwaGpiYWFpbWJwYWpkZmtnYW5kbWoiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"],
 
 
     "content_scripts": [
