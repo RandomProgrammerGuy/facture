@@ -46,5 +46,11 @@ if (capabilities !== 'no') {
 
   // DESTROYING SESSION TO ENSURE IT DOESN'T HINDER PERFORMANCE
   session.destroy();
+
+  // FOR DEBUGGING PURPOSES
+  console.log("Facture Extension: Authenticity Score = ", auth);
+  console.log("Facture Extension: Reputation Score = ", rept);
+  console.log("Facture Extension: Bias score = ", bias);
+  console.log("Facture Extension: AI-Generated Content Score = ", aigc)
 }
 
