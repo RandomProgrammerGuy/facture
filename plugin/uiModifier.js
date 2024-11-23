@@ -1,5 +1,5 @@
 /*
-extensionCode.js
+uiModifier.js
 ----------------
 Interacts directly with the extension UI. It changes the length of the analysis bars and defines their color.
 */

@@ -19,12 +19,3 @@ const baseUrl = window.location.origin + '/';
 
 // LOGS BASE URL INTO THE CONSOLE
 console.log("Facture Extension: Page base URL: ", baseUrl);
-
-// LOGS AI MODEL DOWNLOAD PROGRESS IN THE CONSOLE
-const session = await chrome.aiOriginTrial.languageModel.create({
-    monitor(m) {
-      m.addEventListener("downloadprogress", (e) => {
-        console.log(`Downloaded ${e.loaded} of ${e.total} bytes.`);
-      });
-    },
-  });
